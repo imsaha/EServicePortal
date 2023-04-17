@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EServicePortal", "EServicePortal\EServicePortal.csproj", "{053CE546-0CD5-4F1F-ABED-783F14B033F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EServicePortal.Domain", "EServicePortal.Domain\EServicePortal.Domain.csproj", "{925440DF-3DC7-4025-8B4A-E1F90BD8FDEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EServicePortal.Application", "EServicePortal.Application\EServicePortal.Application.csproj", "{305EBACA-0DEA-428D-A361-AC1D9DF60D4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EServicePortal.Infrastructure", "EServicePortal.Infrastructure\EServicePortal.Infrastructure.csproj", "{949C1C75-50C9-41A5-AA74-B351F4286B07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EServicePortal.PostgresPersistence", "EServicePortal.PostgresPersistence\EServicePortal.PostgresPersistence.csproj", "{DF969710-A61A-472C-A4BA-521D3F311673}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EServicePortal.MySqlPersistence", "EServicePortal.MySqlPersistence\EServicePortal.MySqlPersistence.csproj", "{74A7A1C8-519F-4036-B0F3-A95F4F338FB3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{053CE546-0CD5-4F1F-ABED-783F14B033F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{053CE546-0CD5-4F1F-ABED-783F14B033F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{053CE546-0CD5-4F1F-ABED-783F14B033F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{053CE546-0CD5-4F1F-ABED-783F14B033F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{925440DF-3DC7-4025-8B4A-E1F90BD8FDEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{925440DF-3DC7-4025-8B4A-E1F90BD8FDEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{925440DF-3DC7-4025-8B4A-E1F90BD8FDEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{925440DF-3DC7-4025-8B4A-E1F90BD8FDEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{305EBACA-0DEA-428D-A361-AC1D9DF60D4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{305EBACA-0DEA-428D-A361-AC1D9DF60D4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{305EBACA-0DEA-428D-A361-AC1D9DF60D4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{305EBACA-0DEA-428D-A361-AC1D9DF60D4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{949C1C75-50C9-41A5-AA74-B351F4286B07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{949C1C75-50C9-41A5-AA74-B351F4286B07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{949C1C75-50C9-41A5-AA74-B351F4286B07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{949C1C75-50C9-41A5-AA74-B351F4286B07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF969710-A61A-472C-A4BA-521D3F311673}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF969710-A61A-472C-A4BA-521D3F311673}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF969710-A61A-472C-A4BA-521D3F311673}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF969710-A61A-472C-A4BA-521D3F311673}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74A7A1C8-519F-4036-B0F3-A95F4F338FB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74A7A1C8-519F-4036-B0F3-A95F4F338FB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74A7A1C8-519F-4036-B0F3-A95F4F338FB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74A7A1C8-519F-4036-B0F3-A95F4F338FB3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
